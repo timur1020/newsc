@@ -1,0 +1,384 @@
+{
+ "Account": {
+     "Username": "",
+     "Password": "",
+     "2FA": "Off"
+ },
+ "Cut Lose": "Off",
+ "Client Seed": {
+     "Toggle": "On",
+     "If Random Chance": "On",
+     "If Base Bet": "0.1",
+     "If Lose Streak": "0"
+  },
+ "Currency": "doge",
+ "Target Profit": {
+      "Target Profit":"3000",
+      "Relogin If Target Profit": {
+          "Toggle": "ON",
+          "Interval": "30"
+      }
+ },
+ "Target Lose": "0",
+ "Target Balance": "12500",
+ "Auto Change Betset": {
+     "Reset to Base Bet": "ON",
+     "If Profit": "1",
+     "If Lose Streak": "20",
+     "Interval": "0"
+ },
+ "Config": [{
+     "Name Bet Set": "om8 wae",
+     "Base Bet": "0.01",
+     "Max Bet": "0",
+     "Chance": "5",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "28.25",
+          "Max": "69.25",
+          "If Base Bet": "0",
+          "Reset Chance": "1"
+     },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose Streak": "0",
+              "If Win Streak": "0",
+              "If Bets":"2"
+          }
+     },
+     "If Win": "1.105",
+     "If Lose": "1.23",
+     "Repeat Jump If Lose": "OFF",
+     "Jump If Lose": [{
+          "Name": "Jump 1",
+          "Toggle": "On",
+          "If Lose": "1.5",
+          "Number Of Bets": "3"
+          },{
+          "Name": "Jump 2",
+          "Toggle": "On",
+          "If Lose": "1.6",
+          "Number Of Bets": "2"
+          },{
+          "Name": "Jump 3",
+          "Toggle": "Off",
+          "If Lose": "2.55",
+          "Number Of Bets": "2"
+          },{
+          "Name": "Jump 4",
+          "Toggle": "Off",
+          "If Lose": "4.50",
+          "Number Of Bets": "15"
+          },{
+          "Name": "Jump 5",
+          "Toggle": "Off",
+          "If Lose": "7.00",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 6",
+          "Toggle": "Off",
+          "If Lose": "12.00",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 7",
+          "Toggle": "Off",
+          "If Lose": "19.00",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 8",
+          "Toggle": "Off",
+          "If Lose": "29.00",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 9",
+          "Toggle": "Off",
+          "If Lose": "51.00",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 10",
+          "Toggle": "Off",
+          "If Lose": "81.00",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 11",
+          "Toggle": "Off",
+          "If Lose": "141.00",
+          "Number Of Bets": "10"
+          }
+     ],
+     "Reset If Win Streak": "0",
+     "Reset If Lose Streak":"0",
+     "Reset If Profit": "0.00001",
+     "Interval": "0"
+     },{
+     "Name Bet Set": "C7 By Harry77",
+     "Base Bet": "0.01",
+     "Max Bet": "0",
+     "Chance": "7",
+     "Random Chance": {
+          "Toggle": "Off",
+          "Min": "0",
+          "Max": "0",
+          "If Base Bet": "0.00000001",
+          "Reset Chance": "0"
+     },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "On",
+              "If Lose Streak": "0",
+              "If Win Streak": "0",
+              "If Bets":"3"
+          }
+     },
+     "If Win": "1",
+     "If Lose": "1.1",
+     "Repeat Jump If Lose": "On",
+     "Jump If Lose": [{
+          "Name": "Jump 1",
+          "Toggle": "On",
+          "If Lose": "1.01",
+          "Number Of Bets": "20"
+          },{
+          "Name": "Jump 2",
+          "Toggle": "On",
+          "If Lose": "1.80",
+          "Number Of Bets": "9"
+          },{
+          "Name": "Jump 3",
+          "Toggle": "On",
+          "If Lose": "2.55",
+          "Number Of Bets": "9"
+          },{
+          "Name": "Jump 4",
+          "Toggle": "On",
+          "If Lose": "4.50",
+          "Number Of Bets": "9"
+          },{
+          "Name": "Jump 5",
+          "Toggle": "On",
+          "If Lose": "7.00",
+          "Number Of Bets": "9"
+          },{
+          "Name": "Jump 6",
+          "Toggle": "On",
+          "If Lose": "12.00",
+          "Number Of Bets": "9"
+          },{
+          "Name": "Jump 7",
+          "Toggle": "On",
+          "If Lose": "19.00",
+          "Number Of Bets": "9"
+          },{
+          "Name": "Jump 8",
+          "Toggle": "On",
+          "If Lose": "29.00",
+          "Number Of Bets": "9"
+          },{
+          "Name": "Jump 9",
+          "Toggle": "On",
+          "If Lose": "51.00",
+          "Number Of Bets": "9"
+          },{
+          "Name": "Jump 10",
+          "Toggle": "On",
+          "If Lose": "81.00",
+          "Number Of Bets": "9"
+          },{
+          "Name": "Jump 11",
+          "Toggle": "On",
+          "If Lose": "141.00",
+          "Number Of Bets": "9"
+          },{
+          "Name": "Jump 12",
+          "Toggle": "On",
+          "If Lose": "251.00",
+          "Number Of Bets": "9"
+          }
+     ],
+     "Reset If Win Streak": "0",
+     "Reset If Lose Streak":"0",
+     "Reset If Profit": "0.00000001",
+     "Interval": "1"
+     },{
+     "Name Bet Set": "C5 By Harry77",
+     "Base Bet": "0.01",
+     "Max Bet": "0",
+     "Chance": "5",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "15",
+          "Max": "47",
+          "If Base Bet": "0",
+          "Reset Chance": "1"
+     },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose Streak": "0",
+              "If Win Streak": "0",
+              "If Bets":"2"
+          }
+     },
+     "If Win": "1",
+     "If Lose": "1.1",
+     "Repeat Jump If Lose": "ON",
+     "Jump If Lose": [{
+          "Name": "Jump 1",
+          "Toggle": "On",
+          "If Lose": "1.01",
+          "Number Of Bets": "20"
+          },{
+          "Name": "Jump 2",
+          "Toggle": "On",
+          "If Lose": "1.80",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 3",
+          "Toggle": "On",
+          "If Lose": "2.55",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 4",
+          "Toggle": "On",
+          "If Lose": "4.50",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 5",
+          "Toggle": "On",
+          "If Lose": "7.00",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 6",
+          "Toggle": "On",
+          "If Lose": "12.00",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 7",
+          "Toggle": "On",
+          "If Lose": "19.00",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 8",
+          "Toggle": "On",
+          "If Lose": "29.00",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 9",
+          "Toggle": "On",
+          "If Lose": "51.00",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 10",
+          "Toggle": "On",
+          "If Lose": "81.00",
+          "Number Of Bets": "10"
+          },{
+          "Name": "Jump 11",
+          "Toggle": "On",
+          "If Lose": "141.00",
+          "Number Of Bets": "10"
+          }
+     ],
+     "Reset If Win Streak": "0",
+     "Reset If Lose Streak":"0",
+     "Reset If Profit": "0.00000001",
+     "Interval": "1"
+     },{
+     "Name Bet Set": "C10 By Harry77",
+     "Base Bet": "0.01",
+     "Max Bet": "0",
+     "Chance": "10",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "15",
+          "Max": "47",
+          "If Base Bet": "0",
+          "Reset Chance": "1"
+     },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose Streak": "0",
+              "If Win Streak": "0",
+              "If Bets":"3"
+          }
+     },
+     "If Win": "1",
+     "If Lose": "1.1",
+     "Repeat Jump If Lose": "ON",
+     "Jump If Lose": [{
+          "Name": "Jump 1",
+          "Toggle": "On",
+          "If Lose": "1.01",
+          "Number Of Bets": "20"
+          },{
+          "Name": "Jump 2",
+          "Toggle": "On",
+          "If Lose": "1.80",
+          "Number Of Bets": "8"
+          },{
+          "Name": "Jump 3",
+          "Toggle": "On",
+          "If Lose": "2.55",
+          "Number Of Bets": "8"
+          },{
+          "Name": "Jump 4",
+          "Toggle": "On",
+          "If Lose": "4.50",
+          "Number Of Bets": "8"
+          },{
+          "Name": "Jump 5",
+          "Toggle": "On",
+          "If Lose": "7.00",
+          "Number Of Bets": "8"
+          },{
+          "Name": "Jump 6",
+          "Toggle": "On",
+          "If Lose": "12.00",
+          "Number Of Bets": "8"
+          },{
+          "Name": "Jump 7",
+          "Toggle": "On",
+          "If Lose": "19.00",
+          "Number Of Bets": "8"
+          },{
+          "Name": "Jump 8",
+          "Toggle": "On",
+          "If Lose": "29.00",
+          "Number Of Bets": "8"
+          },{
+          "Name": "Jump 9",
+          "Toggle": "On",
+          "If Lose": "51.00",
+          "Number Of Bets": "8"
+          },{
+          "Name": "Jump 10",
+          "Toggle": "On",
+          "If Lose": "81.00",
+          "Number Of Bets": "8"
+          },{
+          "Name": "Jump 11",
+          "Toggle": "On",
+          "If Lose": "141.00",
+          "Number Of Bets": "8"
+          }
+     ],
+     "Reset If Win Streak": "0",
+     "Reset If Lose Streak":"0",
+     "Reset If Profit": "0.00000001",
+     "Interval": "1"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "Off",
+       "If Balance": "",
+       "Wallet Address": "",
+       "Amount": ""
+      },
+  "User-Agent": "Android Phone / Chrome 61 [Mobile]: Mozilla/5.0 (Linux; Android 12.5; Marvel Xcore7 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36"
+}
